@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Padaria do Milton</title>
+</head>
+<body>
+    <header class="container-fluid p-2 text-center bg-dark">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">PADARIA DO MILTON</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#produtos" class="nav-link text-light scrollto"><i class="bx bx-user"></i> <span>Produtos</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#contato" class="nav-link text-light scrollto"><i class="bx bx-user"></i> <span>Contato</span></a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel/mulher-encantadora-trabalhando-em-sua-loja-de-padaria_130388-1288.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h3>Atendimento de qualidade!</h3 class="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/rye-cortou-pao-na-mesa_1112-1264.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Produtos feito com muito amor!</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <img src="img/carousel/uma-padaria-com-uma-montra-de-pastelaria-e-pastelaria_188544-40882.avif" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                    <h3>Variedade infinita de produtos!</h3>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section id="produtos" class="container-fluid text-center p-4">
+        <h2>CARDÁPIO</h2>
+        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 bg-light">
+                        <img src="img/produtos/lanches.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lanches</h5>
+                            <br><br>
+                            <p class="card-text">Sed eu tincidunt sapien, at ultrices tortor. Sed est nisi, porttitor nec diam vitae, rhoncus convallis est.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">SAIBA MAIS</a>
+                        <div class="card-footer">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-light">
+                    <img src="img/produtos/pizza.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Pizzas</h5>
+                        <br><br>
+                        <p class="card-text">Sed eu tincidunt sapien, at ultrices tortor. Sed est nisi, porttitor nec diam vitae, rhoncus convallis est.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">SAIBA MAIS</a>
+                        <div class="card-footer">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-light">
+                        <img src="img/produtos/doces.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Doces</h5>
+                            <br><br>
+                            <p class="card-text">Sed eu tincidunt sapien, at ultrices tortor. Sed est nisi, porttitor nec diam vitae, rhoncus convallis est.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">SAIBA MAIS</a>
+                        <div class="card-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Atenção!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        <div class="modal-body text-black">
+        Você será redirecionado para a pagina onde contém nossos produtos.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cancelar</button>
+            <a href="#" type="button" class="btn btn-success">OK</a>
+        </div>
+        </div>
+    </div>
+</div>
+<section class="bg-dark" id="contato">
+    <div class="container">
+        <div class="section-title text-light">
+            <h2 class="text-center">Fale Conosco!</h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+        <div class="col-lg-12 d-flex align-items-stretch text-light">
+            <div class="info">
+                <div class="address">
+                    <h4 class="bi bi-geo-alt"> Endereço:</h4>
+                    <p>Rua Coronel Francisco Guimarães 25, Xique-Xique - BA, 47400-000</p>
+                </div>
+
+            <div class="email">
+                <h4 class="bi bi-envelope"> Email:</h4>
+                <p>padaria.milton@gmail.com</p>
+            </div>
+
+            <div class="phone">
+                <h4 class=" bi bi-phone">Telefone:</h4>
+                <p>+55 (91) 95738-8534</p>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13181.177322177331!2d-42.73255716040332!3d-10.8275705501783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x765921521a3a289%3A0xd0bc236aee3dda01!2sXique-Xique%2C%20BA%2C%2047400-000!5e0!3m2!1spt-BR!2sbr!4v1708488667238!5m2!1spt-BR!2sbr" frameborder="0" style="border:0; width: 300%; height: 290px;" allowfullscreen></iframe>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+</section>
+<footer class="container-fluid text-center p-2">
+    © Padaria do Milton. 2024. Todos os direitos reservados. Vinícius Design.
+</footer>
+</html>
